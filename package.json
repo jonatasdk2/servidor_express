@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "ts-node dist/servidor.js",
+    "dev": "ts-node src/servidor.ts"
   },
   "keywords": [],
   "author": "",

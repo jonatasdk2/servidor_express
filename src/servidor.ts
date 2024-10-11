@@ -3,7 +3,7 @@ import  express, { Request, Response }  from "express"
 const servidor = express()
 
 const controlador = (req:Request,res:Response)=>{
-    return res.send('meu primeiro servidor node.ts com express')
+    return res.send('meu primeiro servidor node.js com express e typescript')
 }
 
 servidor.get('/', controlador)
